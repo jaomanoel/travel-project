@@ -20,10 +20,17 @@ module.exports = {
         extend: {
             spacing: {
                 2: ".2rem",
+                4: ".4rem",
+                8: ".8rem",
+                12: "1.2rem",
+                14: "1.4rem",
                 16: "1.6rem",
+                19: "1.9rem",
                 20: "2rem",
                 24: "2.4rem",
                 30: "3rem",
+                32: "3.2rem",
+                34: "3.4rem",
                 36: "3.6rem",
                 40: "4rem",
                 44: "4.4rem",
@@ -49,6 +56,7 @@ module.exports = {
                 650: "65rem",
                 623: "62.3rem",
                 920: "92rem",
+                940: "94.0rem",
                 1280: "128rem",
             },
             lineHeight: {
