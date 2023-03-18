@@ -8,10 +8,10 @@ export interface CardProps {
 const Card: React.FC<CardProps> = ({ img, label }) => {
     return (
         <div
-            className={`w-[19rem] md:w-[17.5rem] lg:w-[24.1rem] xl:w-[31rem] relative`}
+            className={`w-[28.8rem] md:w-[17.5rem] lg:w-[24.1rem] xl:w-[31rem] relative`}
         >
             <img
-                className={`w-[19rem] md:w-[17.5rem] lg:w-[24.1rem] xl:w-[31rem]`}
+                className={`w-[28.8rem] md:w-[17.5rem] lg:w-[24.1rem] xl:w-[31rem]`}
                 src={img}
                 alt={label}
             />

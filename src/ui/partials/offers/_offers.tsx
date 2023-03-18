@@ -13,14 +13,14 @@ const Offers: React.FC = () => {
                 <h3 className="w-full pb-8 text-base text-left md:text-lg">
                     Good Offers Right Now
                 </h3>
-                <p className="w-full pb-4 text-gray-600 md:text-base">
+                <p className="w-full pb-4 text-gray-600 text-sm md:text-base">
                     Up to <span className="font-bold">50%</span> discount
                 </p>
 
                 <div className="flex flex-col w-full md:flex-row justify-between gap-12">
-                    <div className="w-[19rem] md:w-[36.2rem] lg:w-[49rem] xl:w-[63.4rem] relative">
+                    <div className="w-[28.8rem] md:w-[36.2rem] lg:w-[49rem] xl:w-[63.4rem] relative">
                         <img
-                            className="w-[19rem] md:w-[36.2rem] lg:w-[49rem] xl:w-[63.4rem]"
+                            className="w-[28.8rem] md:w-[36.2rem] lg:w-[49rem] xl:w-[63.4rem]"
                             src={cinqueTerre}
                             alt="Cinque Terre"
                         />
