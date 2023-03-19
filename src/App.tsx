@@ -8,7 +8,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <div className="h-full flex justify-between flex-col">
+        <div className="h-full flex justify-between flex-col bg-slate-200">
             <Header />
             <Search />
             <Offers />
