@@ -4,6 +4,7 @@ import Header from "./ui/components/surface/Header/Header";
 import Explorer from "./ui/partials/explorer/_explorer";
 import Offers from "./ui/partials/offers/_offers";
 import Newsletter from "./ui/partials/newsletter/_newsletter";
+import Contact from "./ui/partials/contact/_contact";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
             <Offers />
             <Explorer />
             <Newsletter />
+            <Contact />
         </div>
     );
 }
