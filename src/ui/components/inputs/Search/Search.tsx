@@ -8,14 +8,18 @@ export interface SearchProps {}
 const Search: React.FC<SearchProps> = () => {
     return (
         <div className="w-full flex justify-center py-0 sm:py-24 md:py-48 relative items-center">
-            <img className="w-full h-full absolute" src={london} alt="london" />
+            <img
+                className="w-full h-full hidden sm:block absolute"
+                src={london}
+                alt="london"
+            />
 
             <div className="w-full z-10 sm:max-w-screen-sm xl:max-w-screen-lg flex flex-col items-center">
                 <nav className="w-full">
                     <ul className="flex w-full justify-between items-center">
-                        <li className="text-white w-full flex items-center justify-center bg-black hover:bg-red-500">
+                        <li className="text-white w-full flex items-center h-24 justify-center bg-black hover:bg-red-500">
                             <a
-                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4"
+                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4 text-sm"
                                 href="#"
                             >
                                 <img
@@ -26,18 +30,18 @@ const Search: React.FC<SearchProps> = () => {
                                 <span>Fight</span>
                             </a>
                         </li>
-                        <li className="text-white w-full flex items-center justify-center bg-black hover:bg-red-500">
+                        <li className="text-white w-full flex items-center h-24 justify-center bg-black hover:bg-red-500">
                             <a
-                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4"
+                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4 text-sm"
                                 href="#"
                             >
                                 <i className="fa-solid fa-bed"></i>
                                 <span>Hotel</span>
                             </a>
                         </li>
-                        <li className="text-white w-full justify-center flex items-center px-8 bg-black hover:bg-red-500">
+                        <li className="text-white w-full justify-center h-24 flex items-center px-8 bg-black hover:bg-red-500">
                             <a
-                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4"
+                                className="flex items-center w-full gap-8 justify-center px-8 py-2 sm:py-4 text-sm"
                                 href="#"
                             >
                                 <i className="fa-solid fa-car"></i>
