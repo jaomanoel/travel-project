@@ -7,7 +7,7 @@ export interface SearchProps {}
 
 const Search: React.FC<SearchProps> = () => {
     return (
-        <div className="w-full h-450 flex justify-center py-0 sm:py-24 md:py-28 relative items-center">
+        <div className="w-full md:h-450 flex justify-center py-0 sm:py-24 md:py-28 relative items-center">
             <img
                 className="w-full h-full max-w-screen-xl hidden sm:block absolute"
                 src={london}
